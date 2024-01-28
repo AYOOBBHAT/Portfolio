@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Afsa-Ai(SaaS)",
+    "imageSrc": "projects/project.png",
+    "description": "AI SaaS Platform with five AI tools. Powered by the Next.js 13 App Router,",
+    "skills": ["typeScrit","React", "Next.Js", "TailwindCss"],
+    "demo": "https://afsa.vercel.app/",
+    "source": "https://github.com/AYOOBBHAT/Afsa-AI"
+  },
+  {
+    "title": "TwitterClone",
+    "imageSrc": "projects/project.png",
+    "description": " a twitter-Clone with all functionalites ",
+    "skills": ["React", "Tailwind", "Next", "Prisma", "Mongo", "NextAuth" ,"& Vercel (2023)"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/AYOOBBHAT/twitter-clone"
+  },
+  {
+    "title": "Next_auth",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the Advance feature of Next_Auth(2024).",
+    "skills": ["Next_Auth","typescript","React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/AYOOBBHAT/Next_Auth_Verification"
+  }
+]
