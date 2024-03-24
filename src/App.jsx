@@ -5,8 +5,11 @@ import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
+import { MY_RANDOM_KEY } from './config';
 
 function App() {
+  const isRandomKeyValid = MY_RANDOM_KEY !== 'default_value';
+
   return (
     <div className={styles.App}>
       <Navbar />
@@ -15,6 +18,8 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
+      {isRandomKeyValid && <p>MY_RANDOM_KEY is valid!</p>}
+
     </div>
   );
 }
